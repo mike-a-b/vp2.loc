@@ -1,0 +1,17 @@
+{
+    "name": "mike/mvc.loc",
+    "description": "mvc",
+    "authors": [
+        {
+            "name": "mike-a-b",
+            "email": "mike.a.b@yandex.ru"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    }
+    ,
+    "autoload": {
+      "psr-4": { "App\\": ["/components", "/controllers", "/model", "/views"] }
+    }
+}

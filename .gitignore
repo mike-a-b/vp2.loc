@@ -1,0 +1,5 @@
+.idea
+/components/config.php
+/error.log
+/access.log
+/debug
